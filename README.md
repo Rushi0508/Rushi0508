@@ -1,4 +1,4 @@
-[![MasterHead](https://animated-gif-creator.com/images/01/top-tools-to-improve-work-productivity-teksun_80.gif)](https://Rushi0508.io)
+
 
 <h1 align="center">Hi 👋, I'm Rushi Gandhi</h1>
 <h3 align="center">Full Stack Web Developer & Programmer</h3>
