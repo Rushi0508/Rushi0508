@@ -34,6 +34,6 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=rushi0508&show_icons=true&locale=en" alt="rushi0508" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rushi0508&" alt="rushi0508" /></p>
-<p align="left"> <a href="https://twitter.com/rushig_tweets" target="blank"><img src="https://img.shields.io/twitter/follow/rushig_tweets?logo=twitter&style=for-the-badge" alt="rushig_tweets" /></a> </p>
+<p align="left"> <a href="https://twitter.com/rushiispeaks" target="blank"><img src="https://img.shields.io/twitter/follow/rushig_tweets?logo=twitter&style=for-the-badge" alt="rushig_tweets" /></a> </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rushi0508&label=Profile%20views&color=0e75b6&style=flat" alt="rushi0508" /> </p>
 
