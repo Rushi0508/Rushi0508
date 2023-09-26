@@ -4,16 +4,16 @@
 <h3 align="center">Full Stack Web Developer & Programmer</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
-<p align="left"> <a href="https://twitter.com/rushiispeaks" target="blank"><img src="https://img.shields.io/twitter/follow/rushiispeaks?logo=twitter&style=for-the-badge" alt="rushig_tweets" /></a> </p>
+<p align="left"> <a href="https://twitter.com/rushi_twts" target="blank"><img src="https://img.shields.io/twitter/follow/rushi_twts?logo=twitter&style=for-the-badge" alt="rushig_tweets" /></a> </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rushi0508&label=Profile%20views&color=0e75b6&style=flat" alt="rushi0508" /> </p>
 
 - 🔭 I’m currently working on **to upgrad my skills.**
 
-- 🌱 I’m currently learning **different technologies like Mern Stack.**
+- 🌱 I’m currently learning **different technologies like Web3.**
 
 - 👯 I’m looking to collaborate on **web application projects.**
 
-- 👨‍💻 All of my projects are available at [My Personal Portfolio Website](https://rushi0508.github.io/)
+- 👨‍💻 All of my projects are available at [My Personal Portfolio Website](https://rushi.live/)
 
 
 - 📫 How to reach me **rushigandhi14@gmail.com**
