@@ -13,9 +13,11 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **React Native and Web3**
+ 🔭 I’m currently working on **System Design and Web3**
 
  🐦 Connect with me on Twitter [@rushi_twts](https://twitter.com/rushi_twts) for daily insights and updates!
+ 
+ 📅 Interested in a chat? Pick a slot here: [@calendly/rushigandhi14](https://calendly.com/rushigandhi14/30min).
  </div>
  
 <div align="center"> 
@@ -25,7 +27,7 @@
   <a href="https://linkedin.com/in/rushi0508" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="https://rushi.live" target="_blank">
+  <a href="https://rushi-web.vercel.app" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </div>
