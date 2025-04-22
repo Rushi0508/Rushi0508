@@ -12,9 +12,7 @@
 <br/>
 
 <div align="center">
- 
- 🔭 I’m currently working on **System Design and Web3**
-
+    
  🐦 Connect with me on Twitter [@rushi_twts](https://twitter.com/rushi_twts) for daily insights and updates!
  
  📅 Interested in a chat? Pick a slot here: [@calendly/rushigandhi14](https://calendly.com/rushigandhi14/30min).
@@ -44,25 +42,10 @@
 
 <br/>
 <hr/>
-
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Rushi0508/Rushi0508/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rushi0508&theme=react-dark&hide_border=false&area=true&border_radius=10" alt="GitHub Activity Graph" />
 </div>
 
-<hr/>
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
-  <img width=390 src="https://streak-stats.demolab.com/?user=Rushi0508&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=Rushi0508&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-  <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rushi0508&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
-</div>
 
 <br/><br/>
 <hr/>
