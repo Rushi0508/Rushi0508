@@ -30,6 +30,12 @@
   </a>
 </div>
 
+<hr>
+<h2 align="center">📊 GitHub Stats</h2>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rushi0508&theme=react&hide_border=true" />
+</p>
+
  <hr/>
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
@@ -44,8 +50,6 @@
 <hr/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rushi0508&theme=react-dark&hide_border=false&area=true&border_radius=10" alt="GitHub Activity Graph" />
 </div>
-
-
 
 <br/><br/>
 <hr/>
