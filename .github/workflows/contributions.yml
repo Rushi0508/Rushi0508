@@ -1,0 +1,59 @@
+name: Update contribution count
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Update README
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+
+          # The API caps each query at one year, so sum the totals year by year.
+          years=$(gh api graphql -f login="$LOGIN" \
+            -f query='query($login:String!){ user(login:$login){ contributionsCollection{ contributionYears } } }' \
+            --jq '.data.user.contributionsCollection.contributionYears[]')
+
+          total=0
+          for y in $years; do
+            n=$(gh api graphql -f login="$LOGIN" -f from="${y}-01-01T00:00:00Z" -f to="${y}-12-31T23:59:59Z" \
+              -f query='query($login:String!,$from:DateTime!,$to:DateTime!){ user(login:$login){ contributionsCollection(from:$from,to:$to){ contributionCalendar{ totalContributions } } } }' \
+              --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+            total=$((total + n))
+            first_year="$y" # years come newest first, so the last one is the earliest
+          done
+
+          formatted=$(echo "$total" | rev | sed 's/[0-9]\{3\}/&,/g' | rev | sed 's/^,//')
+          line="_${formatted} contributions on GitHub since ${first_year}_"
+
+          awk -v line="$line" '
+            /<!-- contributions:start -->/ { print; print line; skip = 1; next }
+            /<!-- contributions:end -->/   { skip = 0 }
+            !skip                          { print }
+          ' README.md > README.tmp
+          mv README.tmp README.md
+          echo "$line"
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "Count unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update contribution count"
+          git push
