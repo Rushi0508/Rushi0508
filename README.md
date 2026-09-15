@@ -6,7 +6,7 @@ I've built AI products, enterprise platforms, ERPs, supply chain workflows, inte
 
 I care about the product as much as the code: understanding users, making trade-offs, and figuring out what to build and why.
 
-**Stack:** TypeScript · Next.js · Node.js · NestJS · PostgreSQL · AWS · Vercel AI SDK · LangGraph · LangChain. That's my usual toolkit, but I've picked up whatever stack the problem needed.
+**Stack:** TypeScript · Next.js · NestJS · Node.js · PostgreSQL · AWS · Vercel AI SDK · LangGraph · LangChain. That's my usual toolkit, but I've picked up whatever stack the problem needed.
 
 Outside work I read, learn music, and share what I learn on [X](https://x.com/rushi_twts).
 
